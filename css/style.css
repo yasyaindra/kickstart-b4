@@ -1,0 +1,17 @@
+* {
+  font-family: 'Montserrat';
+}
+
+.navbar {
+  background-color: #171717 !important;
+}
+
+.nav-item {
+  margin-right: 24px;
+  font-weight: 200;
+}
+
+.nav-item a.active {
+  color: #f9b234 !important;
+  font-weight: 600;
+}
