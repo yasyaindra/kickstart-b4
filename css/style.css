@@ -15,3 +15,8 @@
   color: #f9b234 !important;
   font-weight: 600;
 }
+
+.nav-link span {
+  color: #f9b234;
+  font-weight: 600;
+}
