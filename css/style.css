@@ -36,7 +36,8 @@ body {
 }
 
 .features h3,
-.designers h3 {
+.designers h3,
+.similar-product h3 {
   font-family: 'Lora';
   font-weight: 700;
   color: #1b2690;
@@ -44,6 +45,7 @@ body {
 
 .features p,
 .designers p,
+.similar-product p,
 footer p {
   color: #b7b7b7;
 }
@@ -150,4 +152,13 @@ figure h5 {
 .product-review {
   height: 350px;
   overflow: scroll;
+}
+
+.similar-product {
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+.similar-product .figure-caption h5 {
+  font-weight: 700;
 }
