@@ -1,4 +1,4 @@
-* {
+body {
   font-family: 'Montserrat';
 }
 
@@ -116,4 +116,38 @@ figure h5 {
 
 .designed-by p span {
   color: #b7b7b7;
+}
+
+.product-description {
+  background-color: #f6f7fb;
+  height: 360px;
+}
+
+.product-description .tab-content {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tab-content p {
+  color: #868686;
+  font-weight: 200;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.product-review h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.product-review p {
+  font-size: 14px !important;
+}
+
+.product-review {
+  height: 350px;
+  overflow: scroll;
 }
