@@ -34,3 +34,37 @@
 .carousel p {
   font-weight: 200;
 }
+
+.features h3 {
+  font-family: 'Lora';
+  font-weight: 700;
+  color: #1b2690;
+}
+
+.features p {
+  color: #b7b7b7;
+}
+
+figure h5 {
+  color: #171717;
+  font-weight: 400;
+}
+
+.figure-img {
+  position: relative;
+}
+
+.figure-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure:hover a {
+  opacity: 1;
+}
