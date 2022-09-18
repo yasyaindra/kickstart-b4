@@ -37,7 +37,8 @@ body {
 
 .features h3,
 .designers h3,
-.similar-product h3 {
+.similar-product h3,
+.cart-header h3 {
   font-family: 'Lora';
   font-weight: 700;
   color: #1b2690;
@@ -46,6 +47,7 @@ body {
 .features p,
 .designers p,
 .similar-product p,
+.cart-header p,
 footer p {
   color: #b7b7b7;
 }
@@ -161,4 +163,8 @@ figure h5 {
 
 .similar-product .figure-caption h5 {
   font-weight: 700;
+}
+
+.cart-breadcrumb {
+  margin-top: 50px;
 }
